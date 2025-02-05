@@ -2,7 +2,7 @@
 
 import {useNavigate} from "react-router-dom";
 import {useEffect} from "react";
-import {UrlState} from "@/context";
+import { UrlState } from "@/Context";
 import {BarLoader} from "react-spinners";
 
 function RequireAuth({children}) {
