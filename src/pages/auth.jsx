@@ -1,5 +1,5 @@
 import Login from "@/components/login";
-import Signup from "@/components/signup";
+import Signup from "@/components/Signup";
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 import {UrlState} from "@/context";
 import {useEffect} from "react";
