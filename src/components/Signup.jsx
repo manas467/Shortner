@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import Error from "./error";
+import Error from "./Error";
 import {Input} from "./ui/input";
 import * as Yup from "yup";
 import {
