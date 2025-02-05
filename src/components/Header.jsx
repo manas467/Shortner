@@ -13,7 +13,7 @@ import {LinkIcon, LogOut} from "lucide-react";
 import {Link, useNavigate} from "react-router-dom";
 import {BarLoader} from "react-spinners";
 import {Button} from "./ui/button";
-import {UrlState} from "@/context";
+import { UrlState } from "@/Context";
 
 const Header = () => {
   const {loading, fn: fnLogout} = useFetch(logout);
