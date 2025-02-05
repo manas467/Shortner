@@ -8,7 +8,7 @@ import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
 import {Input} from "@/components/ui/input";
 import {CreateLink} from "@/components/create-link";
 import LinkCard from "@/components/link-card";
-import Error from "@/components/error";
+import Error from "@/components/Error";
 
 import useFetch from "@/hooks/use-fetch";
 
