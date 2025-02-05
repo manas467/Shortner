@@ -16,7 +16,7 @@ import * as yup from "yup";
 import useFetch from "@/hooks/use-fetch";
 import {createUrl} from "@/db/apiUrls";
 import {BeatLoader} from "react-spinners";
-import {UrlState} from "@/context";
+import {UrlState} from "@/Context";
 import {QRCode} from "react-qrcode-logo";
 
 export function CreateLink() {
