@@ -1,4 +1,4 @@
-import Login from "@/components/login";
+import Login from "@/components/Login";
 import Signup from "@/components/Signup";
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 import {UrlState} from "@/context";
