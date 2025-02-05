@@ -15,7 +15,7 @@ import Error from "./Error";
 import { login } from "@/db/ApiAuth";
 import {BeatLoader} from "react-spinners";
 import useFetch from "@/hooks/use-fetch";
-import {UrlState} from "@/context";
+import {UrlState} from "@/Context";
 
 const Login = () => {
   let [searchParams] = useSearchParams();
